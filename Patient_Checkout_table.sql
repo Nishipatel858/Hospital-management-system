@@ -8,17 +8,6 @@ create table PatientCheckout(
         primary key(PID,DateIn)
 );
 
-INSERT INTO PatientCheckout VALUES (2,'2000-02-26','2001-01-16','A',401,'not fully cured');
-INSERT INTO PatientCheckout VALUES (3,'1998-12-15','2000-09-13','A',101,'under treatment');
-INSERT INTO PatientCheckout VALUES (4,'2012-07-28','2012-08-08','B',104,'Cured');
-INSERT INTO PatientCheckout VALUES (2,'2015-11-01','2015-11-01','A',206,'not fully cured');
-INSERT INTO PatientCheckout VALUES (12,'2014-11-23','2014-11-23','A',104,'No more');
-INSERT INTO PatientCheckout VALUES (13,'2011-02-25','2011-03-11','B',203,'Cured');
-INSERT INTO PatientCheckout VALUES (6,'1999-05-12','2001-10-02','B',606,'under treatment');
-INSERT INTO PatientCheckout VALUES (7,'2010-04-12','2011-11-14','B',202,'Cured');
-INSERT INTO PatientCheckout VALUES (14,'2009-06-17','2009-08-17','A',102,'Cured');
-INSERT INTO PatientCheckout VALUES (15,'2001-04-08','2001-04-08','A',402,'Cured');
-
 create table Patient_TotalBill(
 		PID bigint,
         DateIN date,
